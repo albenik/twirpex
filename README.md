@@ -50,7 +50,7 @@ protoc -twirpex_out=path/to/doc/folder -twirpex_opt=paths=source_relative twirp/
 ```yaml
 version: v1
 plugins:
-    -   name: twirpex
-        out: path/to/doc/folder
-        opt: paths=source_relative
+  - name: twirpex
+    out: path/to/doc/folder
+    opt: paths=source_relative
 ```
